@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
     btn.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        String srcPath = "msadsdk-1.0.2.20.dex.jar";
+        String srcPath = "msadsdk-1.0.2.21.dex.jar";
         String destPath = getFilesDir() + File.separator + "dex.jar";
         try {
           copyAsset(srcPath, destPath);
